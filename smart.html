@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@200&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Hello, world!</title>
+  <script>
+    function welcome()
+    {
+      window.open("login.html");
+    }
+  </script>
+</head>
+<body>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+  crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+<!--
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="log"><img src="logo.jpeg"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         <div class="item"> <li class="nav-item">
+            <a class="nav-link " href="boot.html">Home</a>
+          </li></div>
+          <li class="nav-item">
+            <a class="nav-link active" href="smart.html">SmartPhones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="tablet.html">Tablets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="head.html">HeadPhones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="access.html">Accessories</a>
+          </li>
+         <div class="search">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          </div>
+        </ul>
+        <div class="d-flex">
+          <button onclick="welcome()" type="button" class="btn btn-outline-secondary">login</button>
+          <button class="btn btn-outline-secondary mx-1">Cart <i class="fa fa-shopping-cart"></i></button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <section class="main_heading my-5">
+    <div class="text-center">
+      <h2>OUR LATEST SMARTPHONES</h2>
+      <hr class="w-25 mx-auto" />
+    </div>
+    <div>
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://i.ytimg.com/vi/ncyX0RO0Xxk/maxresdefault.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 style="color:black;"><b>IPHONE 13 PRO</b></h5>
+              <p style="color: black;font-size: 10px;"> <b>The most advanced pro camera system ever on iPhone; Super
+                  Retina XDR display with ProMotion; a massive leap in battery life.</b></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/3XcTHDGVlms/maxresdefault.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>ONEPLUS 9R</h5>
+              <p style="font-size: 10px;">The OnePlus 9RT is powered by the 5nm Qualcomm Snapdragon 888 chipset with an
+                octa-core CPU and Adreno 660 GPU.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://akm-img-a-in.tosshub.com/aajtak/images/photo_gallery/202109/realme-c25y-sixteen_nine.jpg?size=1200:675"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5 style="color:rgb(0, 0, 0)">REALME C25Y</h5>
+              <p style="color: rgb(8, 8, 8); font-size: 10px;">Realme has loaded C25Y with a brilliant array of
+                reliable features. The smartphone with its massive battery setup.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.hindustantimes.com/tech/img/2021/12/31/960x540/Xiaomi_11i_HyperCharge_1640921900419_1640921929299.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>REDMI 11i</h5>
+              <p style="font-size: 10px;">Xiaomi 11i HyperCharge assures a top-notch user experience in terms of
+                visuals, battery, storage and performance.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.techadvisor.com/cmsdata/features/3804069/vivo_v21_colours.jpg" class="d-block w-100"
+              alt="...">
+            <div class="carousel-caption">
+              <h5 style="color: black;">VIVO V21</h5>
+              <p style="font-size: 10px;color: black;">The Vivo V21 5G comes with a Samsung-made 6.4-inch FHD+ AMOLED
+                with a refresh rate of 90Hz.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="text-center">
+        <br><br>
+        <h2>TECH WORLD EXCLUSIVE SMARTPHONES & TABLETS </h2>
+        <hr class="w-25 mx-auto" />
+      </div>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <div class="row">
+              <div class="col-3"> <img
+                  src="https://www.reliancedigital.in/medias/Vivo-Y1s-Smart-Phones-491901092-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0ODk1M3xpbWFnZS9qcGVnfGltYWdlcy9oZmYvaGNjLzk0NTIzMzg4NzIzNTAuanBnfDcxNzVkMWNmMmFlMGYwZWNjYTY0ZjhiOTc4NGM1MTQ3ZGMxNWNiOTQzYzEwYzZmNDlmOGY2NDdmNjc5NDUzNDg"
+                  class="d-block w-100" alt="...">
+                <p class="box"> VIVO Y12G 32 GB, 3 GB RAM, Phantom
+                  Black, Smartphone</p>
+                <p class="box1">Offer Price: <b
+                    style="color: rgb(0, 0, 0);">₹8,490.00</b><br>M.R.P:<s>₹10,990.00</s><br>
+                  You Save: 23%(₹2,500)</p>
+              </div>
+              <div class="col-3"> <img
+                  src="https://www.reliancedigital.in/medias/Nokia-C20-Plus-Smartphones-491997487-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NzEyNHxpbWFnZS9qcGVnfGltYWdlcy9oYzYvaDc1Lzk2MTY3NTIyMTQwNDYuanBnfDA0YzYxMzUxOWNlMmM1NjA1ZmFhN2M3MzhmMjNmOWRmMGJkZWYzOWIzZThmOGZiODU4ZDc3M2YyNzc0NjlhYmU"
+                  class="d-block w-100" alt="...">
+                <p class="box">NOKIA C20 Plus 32 GB, 2GB RAM, Ocean Blue, Smartphone
+                  <br></p>
+                <p class="box2">Offer Price: <b
+                    style="color: rgb(0, 0, 0);">₹7,999.00</b><br>M.R.P:<s>₹10,499.00</s><br>You Save: 24%(₹2,500)</p>
+              </div>
+              <div class="col-3"> <img
+                  src="https://www.reliancedigital.in/medias/Samsung-Tab-A7-Tablets-491901351-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MjY4NHxpbWFnZS9qcGVnfGltYWdlcy9oNDQvaDkzLzkzOTQyOTgxNTkxMzQuanBnfDljMTYzZjA2MmZjOTU2NDUyZDQ2YWFiY2M4ZjlmNzMzNjMzNTZjYmM0YjExY2YyM2Y5MTY1NDk3NTQ3YmNmYjY"
+                  class="d-block w-100" alt="...">
+                <p class="box">Samsung Galaxy Tab A7 26.31 cm (10.4
+                  inch) Dark Grey<br></p>
+                <p class="box3">Offer Price: <b
+                    style="color: rgb(0, 0, 0);">₹18,999.00</b><br>M.R.P:<s>₹25,000.00</s><br>You Save: 24%(₹6,001)</p>
+              </div>
+              <div class="col-3"> <img
+                  src="https://www.reliancedigital.in/medias/itel-A23Pro-8GB-1GB-RAM-491996691-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNDY1M3xpbWFnZS9qcGVnfGltYWdlcy9oOWEvaGU1Lzk1NDU0MzE4NzU2MTQuanBnfGU3OTIxZGZiMGU0MTBmMTZiMzliYzQzNzhkMTE1Y2UyYmQyNWIwMDYyZThiYjU0NGRhODk3ZDI5Mjk1M2M1ZmI"
+                  class="d-block w-100" alt="...">
+                <p class="box">itel A23 Pro 8 GB, 1 GB RAM, Lake
+                  Blue, Smart Phone<br></p>
+                <p class="box4">Offer Price: <b
+                    style="color: rgb(0, 0, 0);">₹4,040.00</b><br>M.R.P:<s>₹4,999.00</s><br>You Save: 19%(₹959)</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-3"> <img
+                  src="https://www.reliancedigital.in/medias/JioPhone-Next-LS1542QWN-Blue-Smartphone-581107339-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzU4NXxpbWFnZS9qcGVnfGltYWdlcy9oNmQvaGI0Lzk2NjI5ODI5Nzk2MTQuanBnfDFiZTRmMWI0ZDA1MThiNzlkMWM1ZWJhMzJjOWFhZTcwMDAwYzAyMjZhNDg2MjBjZjU5NWNiZTQ1ZDUwOGRmYWM"
+                  class="d-block w-100" alt="...">
+                <p class="box">JioPhone Next 32 GB, 2 GB RAM, Blue
+                  Smartphone<br></p>
+                <p class="box5">Offer Price: <b
+                    style="color: rgb(0, 0, 0);">₹6,499.00</b><br>M.R.P:<s>₹7,299.00</s><br>You Save: 11%(₹800)</p>
+              </div>
+              <div class="col-3"> <img
+                  src="https://www.reliancedigital.in/medias/iPad-Pro-11-WIFI-1TB-SG-2020-MXDG2HN-A-Tablets-491691560-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDY3OHxpbWFnZS9qcGVnfGltYWdlcy9oYzcvaDIxLzkyNzA2NzI5NDkyNzguanBnfGMxYTQ4OWUxNGQwNDQ1NGUyMjVhZmJhNGRmMzhiMGQ0M2YzNDQ3NzdhOWQyY2RhMzBiOTAyNDQxOTdlZWM2Y2U"
+                  class="d-block w-100" alt="...">
+                <p class="box">Apple iPad Pro 2020 27.94 cm (11 inch) Wi-Fi Tablet
+                  <br></p>
+                <p  class="box6">Offer Price: <b
+                    style="color: rgb(0, 0, 0);">₹1,16,900.00</b><br>M.R.P:<s>₹1,22,745.00</s><br>You Save: 5%(₹5845)</p>
+              </div>
+              <div class="col-3"> <img
+                  src="https://www.reliancedigital.in/medias/Apple-iPhone-13-Mini-Smartphones-491997717-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMzgxNHxpbWFnZS9qcGVnfGltYWdlcy9oYzUvaGNkLzk2MzczMjU1MDQ1NDIuanBnfDZkNzE2Y2U1ZWI0ODRiMDI1YThhMTZiOWM3MDI5YjQ1N2NhZDBlZjk3MTI3ODExYmI3YTlkOGMwMzg2MmIzZDQ"
+                  class="d-block w-100" alt="...">
+                <p class="box">Apple iPhone 13 Mini 128 GB with usb-C cable
+                  Blue<br></p>
+                <p  class="box7">Offer Price: <b
+                    style="color: rgb(0, 0, 0);">₹69,900.00</b><br>M.R.P:<s>₹70,000.00</s><br>You Save: 1%(₹100)</p>
+              </div>
+              <div class="col-3"> <img
+                  src="https://www.reliancedigital.in/medias/Vivo-Y1s-Smartphone-491901093-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NjA4MnxpbWFnZS9qcGVnfGltYWdlcy9oYTUvaDg4Lzk0NTIzMzk4NTUzOTAuanBnfDc2OGI1ZmQ4NzJlYTc1ZGI3YzFjYzgxZGY3NDBjYjUzMGMzZTY2YmI0ZDQ4OWZkYTA3Y2Q3NzcwY2Y0YjEyMjc"
+                  class="d-block w-100" alt="...">
+                <p class="box">Vivo Y1s 32 GB, 2 GB RAM (6.0 inch) Space Black<br></p>
+                <p class="box8">Offer Price: <b
+                    style="color: rgb(0, 0, 0);">₹8,490.00</b><br>M.R.P:<s>₹10,990.00</s><br>You Save: 23%(₹2500)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev">
+       
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next">
+          
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+      <!-- footer -->
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row text-center  text-md-left">
+        <div class="col-md-3-col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> About Tech World</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, repellendus voluptate odio ullam beatae
+            tenetur tempore commodi recusandae incidunt quam ex facilis ab aut velit dicta nesciunt suscipit accusamus
+            ad?</p>
+        </div>
+        <div class="col-md-2-col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> product Categories</h5>
+          <p>
+            <a href="smart.html" class="text-white" style="text-decoration:none;">SmartPhones</a>
+          </p>
+          <p>
+            <a href="tablet.html" class="text-white" style="text-decoration:none;"> SmartTablets</a>
+          </p>
+          <p>
+            <a href="access.html" class="text-white" style="text-decoration:none;">Mobile Covers</a>
+          </p>
+          <p>
+            <a href="head.html" class="text-white" style="text-decoration:none;">HeadPhones</a>
+          </p>
+          <p>
+            <a href="head.html" class="text-white" style="text-decoration:none;">Wireless Earbuds</a>
+          </p>
+
+        </div>
+        <div class="col-md-3-col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Policies</h5>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Terms of use</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Cancellations & Returns</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Privacy policy</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">EMI Terms & Conditions</a>
+          </p>
+          <p>
+            <a href="#" class="text-white" style="text-decoration:none;">Delivery & Shipping Policy</a>
+          </p>
+        </div>
+        <div class="col-md-4-col-lg-3 col-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-warning"> Contact Us</h5>
+          <p>
+            <i class="fa fa-home me-3"></i>New Delhi ,110059,India
+          </p>
+          <p>
+            <i class="fa fa-envelope me-3"></i>TechWorld@gmail.com
+          </p>
+          <p>
+            <i class="fa fa-phone me-3"></i>011256458 & 011256447
+          </p>
+
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="col-md-7 col-lg-8">
+            <p > © 2022 All Rights Reserved by<a href="#"
+                style="text-decoration:none;margin-left:10px;"><strong class="text-warning">Tech World.com</strong></a>
+            </p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-md-7 col-lg-8">
+              <p>FOLLOW US ON.</p>
+              <i class="fa fa-facebook" ></i>
+              <i class="fa fa-instagram"></i>
+              <i class="fa fa-twitter"></i>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>

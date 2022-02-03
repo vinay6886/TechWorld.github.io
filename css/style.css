@@ -1,0 +1,815 @@
+.product{
+    width: 70%;
+margin-left: 13%;
+}
+.search{
+    margin-left: 180px;
+}
+.log img {
+    width: 90px;
+}
+.box{
+    margin-left: 20px; 
+    font-size: 13px;
+     color: rgb(0, 51, 128);
+}
+.box1{
+
+margin-left: 120px; 
+font-size: 13px;
+color: #666;
+}
+.box2{
+    margin-left: 120px; 
+font-size: 13px;
+color: #666;
+}
+.box3{
+    margin-left: 100px; 
+    font-size: 13px;
+    color: #666;
+}
+.box4{
+    margin-left:120px; 
+    font-size: 13px;
+    color: #666;
+}
+.box5{
+    margin-left: 90px; 
+    font-size: 13px;
+    color: #666;
+}
+.box6{
+    margin-left: 110px;
+     font-size: 13px;
+     color: #666;
+}
+.box7{
+    margin-left: 110px; 
+    font-size: 13px;
+    color: #666;
+}
+.box8{
+    margin-left: 120px;
+     font-size: 13px;
+     color: #666;
+}
+.box9{
+    margin-left: 120px; font-size: 13px;color: #666;
+}
+.box10{
+    margin-left: 120px; font-size: 13px;color: #666;
+}
+.box11{
+    margin-left: 120px; font-size: 13px;color: #666;
+}
+.box12{
+    margin-left: 90px; font-size: 13px;color: #666;
+}
+.box13{
+    margin-left: 90px; font-size: 13px;color: #666;
+}
+.box14{
+    margin-left: 90px; font-size: 13px;color: #666;
+}
+.box15{
+    margin-left: 90px; font-size: 13px;color: #666;
+}
+.box16{
+    margin-left: 90px; font-size: 13px;color: #666;
+}
+
+
+.box17{
+    margin-left: 90px; font-size: 13px;color: #666;
+}
+    .box18{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box19{
+        margin-left: 90px; font-size: 13px;color: #666;
+    }
+    
+    .box20{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+    
+    .box21{
+        margin-left: 90px; font-size: 13px;color: #666;
+    }
+    
+    .box22{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+    
+    .box23{
+        margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box24{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+    
+    .box25{
+      margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box26{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box27{
+        margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box28{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box29{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box30{
+        margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box31{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+    .box32{
+       margin-left: 90px; font-size: 13px;color: #666;
+    }
+
+@media (max-width:375px){
+    .box{
+        font-size: 4px;
+        color: rgb(0, 51, 128);
+    }
+.box1{
+ margin-left: 24%;
+font-size: 4px;
+color: #666;
+
+}
+.box2{
+    margin-left: 24%;
+font-size: 4px;
+color: #666;
+
+}
+.box3{
+margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box4{
+    margin-left: 24%;
+        font-size: 4px;
+        color: #666;
+    }
+.box5{
+    margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box6{
+    margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box7{
+    margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box8{
+    margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box9{
+     margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box10{
+     margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box11{
+     margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box12{
+      margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box13{
+      margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box14{
+    margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box15{
+     margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box16{
+     margin-left: 24%;
+    font-size: 4px;
+    color: #666;
+}
+.box17{
+    margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+}
+.box18{
+    margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+}
+.box19{
+    margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+}
+.box20{
+     margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+}
+.box21{
+     margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+}
+.box22{
+   margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+}
+.box23{
+    margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+}
+.box24{
+    margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+}
+.box25{
+     margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+  }
+  .box26{
+      margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+  }
+  .box27{
+    margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+  }
+  .box28{
+      margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+  }
+  .box29{
+     margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+  }
+  .box30{
+       margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+  }
+  .box31{
+      margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+  }
+  .box32{
+     margin-left: 24%;
+   font-size: 4px;
+   color: #666;
+  }
+}
+
+
+@media (max-width:414px){
+    .box{
+        font-size: 4px;
+        color: rgb(0, 51, 128);
+    }
+    .box1{
+        margin-left: 24%;
+       font-size: 4px;
+       color: #666;
+       
+       }
+       .box2{
+           margin-left: 24%;
+       font-size: 4px;
+       color: #666;
+       
+       }
+       .box3{
+       margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box4{
+           margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+       .box5{
+           margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box6{
+           margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box7{
+           margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box8{
+           margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box9{
+            margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box10{
+            margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box11{
+            margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box12{
+             margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box13{
+             margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box14{
+           margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box15{
+            margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box16{
+            margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+       }
+       .box17{
+           margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+       }
+       .box18{
+           margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+       }
+       .box19{
+           margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+       }
+       .box20{
+            margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+       }
+       .box21{
+            margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+       }
+       .box22{
+          margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+       }
+       .box23{
+           margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+       }
+       .box24{
+           margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+       }
+       .box25{
+            margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+         }
+         .box26{
+             margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+         }
+         .box27{
+           margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+         }
+         .box28{
+             margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+         }
+         .box29{
+            margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+         }
+         .box30{
+              margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+         }
+         .box31{
+             margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+         }
+         .box32{
+            margin-left: 24%;
+          font-size: 4px;
+          color: #666;
+         }
+       }
+
+       
+       @media (max-width:768px){
+        .box{
+            font-size: 4px;
+            color: rgb(0, 51, 128);
+        }
+        .box1{
+            margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+           
+           }
+           .box2{
+               margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+           
+           }
+           .box3{
+           margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box4{
+               margin-left: 24%;
+                   font-size: 4px;
+                   color: #666;
+               }
+           .box5{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box6{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box7{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box8{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box9{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box10{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box11{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box12{
+                 margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box13{
+                 margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box14{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box15{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box16{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box17{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box18{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box19{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box20{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box21{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box22{
+              margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box23{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box24{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box25{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box26{
+                 margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box27{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box28{
+                 margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box29{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box30{
+                  margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box31{
+                 margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box32{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+           }
+
+       @media (max-width:820px){
+        .box{
+            font-size: 4px;
+            color: rgb(0, 51, 128);
+        }
+        .box1{
+            margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+           
+           }
+           .box2{
+               margin-left: 24%;
+           font-size: 4px;
+           color: #666;
+           
+           }
+           .box3{
+           margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box4{
+               margin-left: 24%;
+                   font-size: 4px;
+                   color: #666;
+               }
+           .box5{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box6{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box7{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box8{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box9{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box10{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box11{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box12{
+                 margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box13{
+                 margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box14{
+               margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box15{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box16{
+                margin-left: 24%;
+               font-size: 4px;
+               color: #666;
+           }
+           .box17{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box18{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box19{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box20{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box21{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box22{
+              margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box23{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box24{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+           }
+           .box25{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box26{
+                 margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box27{
+               margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box28{
+                 margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box29{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box30{
+                  margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box31{
+                 margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+             .box32{
+                margin-left: 24%;
+              font-size: 4px;
+              color: #666;
+             }
+           }
+    
+    
